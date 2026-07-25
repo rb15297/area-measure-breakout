@@ -1,5 +1,3 @@
-# Area and Measure Breakout — Student Site
+# Area and Measure Breakout — student site
 
-Self-paced digital escape room for students. Hosted on GitHub Pages.
-
-Teacher guides, answer keys, and printable PDFs are **not** included here.
+Public student escape-room site only. Teacher PDFs and answer keys are not included.
