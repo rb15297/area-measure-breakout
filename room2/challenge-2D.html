@@ -6,9 +6,10 @@
   <title>Challenge 2D</title>
   <link rel="stylesheet" href="../assets/styles.css">
 </head>
-<body>
+<body class="scene-overlay">
 
-<main class="wrap">
+<div class="scene-bg" style="background-image:url('../assets/scenes/2D.png')"></div>
+<aside class="scene-pane">
   
 <div class="room-banner" style="background:#1B3A4B">
   <div class="badge">Room 2</div>
@@ -18,18 +19,16 @@
        data-challenge-ids='["2A", "2B", "2C", "2D"]' data-current="2D"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
 </div>
 
-  <div class="card">
-    <p class="meta">3.MD.A.2 · Structure</p>
-    <h2>Challenge 4 of 4</h2>
-    <p>Crate A holds 2 kilograms of nails. Crate B holds 1,500 grams of nails.
+  <p class="meta">3.MD.A.2 · Structure</p>
+  <h2>Challenge 4 of 4</h2>
+  <p>Crate A holds 2 kilograms of nails. Crate B holds 1,500 grams of nails.
 
 Which crate holds MORE mass?</p>
-    <div class="choices" data-choices data-room="2" data-challenge-id="2D">
-      <button type="button" class="choice" data-letter="A">A) The masses cannot be compared</button><button type="button" class="choice" data-letter="B">B) Crate A</button><button type="button" class="choice" data-letter="C">C) Both crates hold the same mass</button><button type="button" class="choice" data-letter="D">D) Crate B</button>
-    </div>
+  <div class="choices" data-choices data-room="2" data-challenge-id="2D">
+    <button type="button" class="choice" data-letter="A">A) The masses cannot be compared</button><button type="button" class="choice" data-letter="B">B) Crate A</button><button type="button" class="choice" data-letter="C">C) Both crates hold the same mass</button><button type="button" class="choice" data-letter="D">D) Crate B</button>
   </div>
   <div class="nav"><a class="btn" href="challenge-2C.html">Back</a><a class="btn accent" href="unlock.html">Room unlock</a></div>
-</main>
+</aside>
 
 <script src="../assets/room.js"></script>
 </body>
